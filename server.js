@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 
 app.use(cors());
-app.use(express.static(path.join(__dirname, '/../frontend/public')));
+app.use(express.static(path.join(__dirname, '/client/public')));
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
@@ -16,7 +16,7 @@ app.use('/users', require('./src/routes/UsersRoute'));
 app.use('/posts', require('./src/routes/PostsRoute'));
 
 app.get('*', (req,res) =>{
-    res.sendFile(path.join(__dirname+'/../frontend/public/index.html'));
+    res.sendFile(path.join(__dirname+'/client/public/index.html'));
 });
 
 const PORT = process.env.PORT || 5000;

@@ -35,7 +35,6 @@
 ### How to run the application locally
 After installing both the Front-end and Back-end dependencies, run:
 
-#### Back-end Folder
 `yarn devback
 `
 
