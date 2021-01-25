@@ -44,3 +44,10 @@ Run the following command:
 #### Front-end Folder
 `yarn devfront
 `
+
+### Compile React with webpack for production
+Run the following command:
+
+#### Front-end Folder
+`yarn build
+`
