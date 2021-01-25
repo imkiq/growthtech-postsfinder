@@ -5,7 +5,7 @@ const baseURL_production = 'https://growthtech-postsfinder.herokuapp.com/';
 
 const api = axios.create({
     baseURL: baseURL_production,
-    timeout: 1000
+    timeout: 20000
 });
 
 export default api;
