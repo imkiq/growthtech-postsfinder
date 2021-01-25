@@ -39,15 +39,12 @@ After installing both the Front-end and Back-end dependencies, run:
 `
 
 ### Compile React with webpack and serve separately
-Run the following command:
+Run the following command on *client* Folder
 
-#### /client/ Folder
 `yarn devfront
 `
 
 ### Compile React with webpack for production
-Run the following command:
-
-#### /client/ Folder
+Run the following command on *client* Folder
 `yarn build
 `
