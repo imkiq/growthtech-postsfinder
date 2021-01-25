@@ -1,0 +1,28 @@
+.post-detail_title {
+    margin-bottom: $m-size;
+    width: 80%;
+
+    a {
+        color: $off-black;
+        font-size: $l-font-size;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+.post-detail_img {
+    margin-bottom: $m-size;
+
+    img {
+        border-radius: $l-size;       
+    }
+}
+
+.post-detail_body {
+    margin-bottom: $m-size;
+    
+    p {
+        font-size: $s-font-size;
+        font-weight: 500;
+    }
+}

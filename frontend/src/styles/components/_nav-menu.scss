@@ -1,0 +1,21 @@
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+
+    margin: $l-size 0;
+}
+
+.nav-menu-title {
+    color: $off-white;
+    margin-right: $l-size;
+    font-size: 2.4rem;
+    font-weight: bold;
+
+        :last-child {
+            margin-right: 0;
+        }
+}
+
+.is-active {
+    color: $blue;
+}

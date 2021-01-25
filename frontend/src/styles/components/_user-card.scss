@@ -1,0 +1,63 @@
+.user-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: $m-size;
+
+    :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.user-card__avatar {
+    margin-right: $m-size;
+    
+    img {
+        border-radius: $l-size $l-size 0 $l-size;
+    }
+}
+
+.user-card__data {
+    background-color: $off-white;
+    border-radius: $s-size $s-size $s-size 0;
+
+    height: 10rem - $l-size;
+    width: 100%;
+
+    text-align: right;
+    padding: $s-size;
+}
+
+.user-card__data_icon {
+    color: $off-black;
+}
+
+.user-card__data_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    p, a {
+        margin-right: 0.8rem;
+    }
+}
+
+.user-card__data--name {
+    font-size: $s-font-size;
+    font-weight: bold;
+    color: $pink;
+    text-decoration: none;
+}
+
+.user-card__data--company, .user-card__data--email {
+    font-size: $xs-font-size;
+    color: $purple;
+    text-decoration: none;
+}
+
+.user-card__data--posts-count {
+    font-size: $xs-font-size;
+    color: $blue;
+    font-weight: bold;
+}

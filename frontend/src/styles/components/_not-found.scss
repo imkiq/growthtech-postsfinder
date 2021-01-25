@@ -1,0 +1,23 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.not-found_header {
+    margin-bottom: $m-size;
+}
+
+.not-found_title {
+    color: $purple;
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.not-found_subtitle {
+    color: $off-white;
+}
+
+.not-found_go-back {
+    color: $pink;
+}

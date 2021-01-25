@@ -1,0 +1,12 @@
+.find-button {
+    display: flex;
+    justify-content: space-between;
+    background: $pink;
+    border: none;
+    border-radius: 50px;
+    color: $yellow;
+    font-weight: bold;
+    font-size: $l-font-size;
+    padding: $m-size;
+    width: 16.2rem;
+}

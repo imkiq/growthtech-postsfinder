@@ -1,0 +1,48 @@
+{
+  "name": "growth_tech_frontend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Caíque Garcia",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "devfront": "webpack serve"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "file-loader": "^6.2.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-modal": "^3.12.1",
+    "react-router-dom": "^5.2.0",
+    "sass-loader": "^10.1.0",
+    "validator": "^13.1.17",
+    "webpack": "^5.6.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "@webpack-cli/serve": "^1.1.0",
+    "css-loader": "^5.0.1",
+    "gulp-babel": "^8.0.0",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
