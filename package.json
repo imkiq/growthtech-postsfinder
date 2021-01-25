@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "yarn add",
+    "heroku-postbuild": "yarn && cd client && yarn",
     "devback": "nodemon server.js"
   },
   "dependencies": {
